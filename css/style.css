@@ -1,4 +1,4 @@
-/*цвет заголовков и навигации #212121;*/
+/*основной цвет #212121;*/
 /*цвет акцент(кнопка, web,) #2196F3;*/
 /*цвет studio #000000, 100 %*/
 /*цвет текста #757575;*/
@@ -6,14 +6,49 @@
 /*цвет фона под фото и заголовка баннера  #FFFFFF*/
 /*цвет фона сек наша команда  #F5F4FA*/
 
-.body{
-  background-color: tomato;
-  color: #212121;
+:root{
+  --primary-text-color:#212121;
+  --accent-color:#2196F3; 
+  --text-color:#757575 ;
 }
-.ul {
+body{
+  background-color: #ffffff ;
+  color:var(--primary-text-color) ;
+}
+ul {
   list-style:none ;
 }
-.title-nav {
-color:#212121 ;
+/*site-nav list*/
+
+.site-nav .link{
+color: var(--primary-text-color);
+} 
+
+.site-nav .link:hover{
+color:var(--accent-color) ;
+}
+/*auth-nav list*/
+
+.auth-nav .contact{
+color:var(--text-color);
+} 
+
+.auth-nav .contact:hover{
+  color:var(--accent-color)
 }
 
+/*section hero (баннер)*/
+
+/*section Почему именно мы*/
+
+.section-title{
+  color: #212121;
+}
+
+.secion-text{
+  color: #757575;
+}
+
+/* section Чем мы занимаемся*/
+
+/*section Наша команда */
