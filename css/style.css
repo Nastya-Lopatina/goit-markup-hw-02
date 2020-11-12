@@ -7,7 +7,7 @@
 /*цвет фона сек наша команда  #F5F4FA*/
 
 :root{
-  --primary-text-color:#212121;
+  --main-text-color:#212121;
   --accent-color:#2196F3; 
   --text-color:#757575 ;
 }
