@@ -6,38 +6,54 @@
 /*цвет фона под фото и заголовка баннера  #FFFFFF*/
 /*цвет фона сек наша команда  #F5F4FA*/
 
+
 :root{
   --main-text-color:#212121;
   --accent-color:#2196F3; 
   --text-color:#757575 ;
-}
+  --main-title-color: #FFFFFF;
+  --studio-color--:#000000;
+  --footer-hero-color:#2F303A;
+  }
+
 body{
-  background-color: #ffffff ;
-  color:var(--primary-text-color) ;
+  background-color:#FFFFFF;
+  color:#212121;
 }
 ul {
   list-style:none ;
 }
+      
+/* HEADER */
+
+.menu-nav > a{
+  color: var(--accent-color);
+}
+.studio{
+  color: var(--studio-color--);
+  }
+
 /*site-nav list*/
 
-.site-nav .link{
-color: var(--primary-text-color);
-} 
 
-.site-nav .link:hover{
-color:var(--accent-color) ;
-}
 /*auth-nav list*/
-
 .auth-nav .contact{
-color:var(--text-color);
+  color: var(--text-color);
 } 
 
 .auth-nav .contact:hover{
-  color:var(--accent-color)
+  color: var(--accent-color);
 }
+       /*MAIN*/
 
 /*section hero (баннер)*/
+.hero{
+  background-color:var(--footer-hero-color);
+}
+.hero .title{
+  color: var(--main-title-color);
+}
+
 
 /*section Почему именно мы*/
 
