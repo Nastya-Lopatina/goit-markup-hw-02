@@ -37,7 +37,8 @@ ul {
 .site-nav .link{
   color: var(--main-text-color);
 }
-.site-nav .link:hover{
+.site-nav .link:hover,
+.site-nav .link:focus{
   color: var(--accent-color);
 }
 
@@ -99,4 +100,18 @@ ul {
 }
 .address{
   color: var(--main-title-color);
+}
+
+/*ПОРТФОЛИО*/
+
+/* section Категории*/
+.list .button{
+  color: var(--main-text-color);
+}
+.list .button:hover{
+  background-color: var(--accent-color);
+  color: var(--main-title-color);
+}
+.work{
+  color: var(--text-color);
 }
