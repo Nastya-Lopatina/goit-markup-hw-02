@@ -34,10 +34,16 @@ ul {
   }
 
 /*site-nav list*/
+.site-nav .link{
+  color: var(--main-text-color);
+}
+.site-nav .link:hover{
+  color: var(--accent-color);
+}
 
 
 /*auth-nav list*/
-.auth-nav .contact{
+ .contact{
   color: var(--text-color);
 } 
 
@@ -53,18 +59,44 @@ ul {
 .hero .title{
   color: var(--main-title-color);
 }
-
+.hero .button{
+  background-color: var(--accent-color);
+  color: var(--main-title-color);
+}
 
 /*section Почему именно мы*/
 
-.section-title{
-  color: #212121;
+.section-title h3{
+  color: var(--main-text-color);
 }
 
 .secion-text{
-  color: #757575;
+  color: var(--text-color);
 }
 
 /* section Чем мы занимаемся*/
 
 /*section Наша команда */
+.employees h2{
+  color: var(--main-text-color);
+}
+.name {
+  color: var(--main-text-color);
+}
+.profession{
+  color: var(--text-color);
+}
+ /*FOOTER*/
+
+.footer{
+  background-color: var(--footer-hero-color);
+} 
+.footer > a{
+  color: var(--accent-color);
+}
+.logo{
+  color: var(--main-title-color);
+}
+.address{
+  color: var(--main-title-color);
+}
