@@ -37,7 +37,6 @@ ul {
   font-weight: bold;
   font-size: 26px;
   line-height:1.2;
-  
 }
 .studio{
   color: var(--studio-color--);
@@ -45,8 +44,7 @@ ul {
   font-weight: bold;
   font-size: 26px;
   line-height:1.2;
-  
-  }
+}
 
 /*site-nav list*/
 .site-nav .link{
