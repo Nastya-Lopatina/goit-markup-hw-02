@@ -93,6 +93,7 @@ ul {
 .hero .button{
   background-color: var(--accent-color);
   color: var(--main-title-color);
+  font-family: Roboto,OpenSans;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -193,6 +194,7 @@ ul {
 /* section Категории*/
 .list .button{
   color: var(--main-text-color);
+  font-family: Roboto,OpenSans;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
